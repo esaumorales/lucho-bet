@@ -20,6 +20,7 @@ import { useBetting } from "@/contexts/betting-context"
 import { useState } from "react"
 import { LoginModal } from "@/components/auth/login-modal"
 import { RegisterModal } from "@/components/auth/register-modal"
+import  ELPISADO  from "./assets/images/elPisado.jpg"
 
 // Real image URLs for sports
 const sportImages = {
@@ -124,7 +125,7 @@ function HomePage() {
         <section className="relative">
           <div className="relative h-[300px] md:h-[400px] w-full overflow-hidden">
             <Image
-              src="https://images.unsplash.com/photo-1610216705422-caa3fcb6d158?q=80&w=1200&auto=format"
+              src={ELPISADO}
               alt="Promoción de bienvenida"
               width={1200}
               height={400}
